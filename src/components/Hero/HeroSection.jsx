@@ -11,9 +11,9 @@ const HeroSection = () => {
     <>
       <div
         id="home"
-        className="relative h-[100vh] w-screen bg-[url('/images/hero-bg.jpg')] bg-cover bg-center font-Inter "
+        className="relative h-[100vh] w-screen bg-[url('/images/hero-bg.jpg')] bg-cover bg-center font-Inter overflow-hidden "
       >
-        <div className="absolute inset-0 bg-black opacity-50 z-10"></div>
+        <div className="absolute inset-0 bg-black opacity-70 w-[100%] h-[100%] z-10"></div>
         <nav className="relative flex justify-around p-8 z-20 items-center">
           <div className="font-extrabold text-2xl text-white hover:cursor-pointer ">
             <Link

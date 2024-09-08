@@ -47,7 +47,10 @@ const Services = () => {
 
   return (
     <>
-      <section id="services" className="mt-2 mb-8 p-4 bg-white font-Inter">
+      <section
+        id="services"
+        className="mt-2 mb-8 p-4 bg-white font-Inter overflow-hidden"
+      >
         <h1 className="text-4xl lg:text-5xl text-center text-secondary  font-bold tracking-wide mb-8">
           Services
         </h1>

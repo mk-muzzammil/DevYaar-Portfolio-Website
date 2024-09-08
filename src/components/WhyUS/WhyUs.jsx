@@ -17,7 +17,7 @@ const WhyUs = () => {
     <>
       <div
         id="WhyUs"
-        className="flex flex-col gap-6 items-center my-8 font-Inter "
+        className="flex flex-col gap-6 items-center my-8 font-Inter overflow-hidden "
       >
         <h1 className="text-4xl lg:text-5xl text-secondary font-bold">
           Why Us
