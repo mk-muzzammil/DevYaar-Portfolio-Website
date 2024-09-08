@@ -50,7 +50,7 @@ const HeroSection = () => {
               </li>
               <li>
                 <Link
-                  to="section1"
+                  to="about"
                   smooth={true}
                   duration={400}
                   className="hover:cursor-pointer hover:border-b-[3px] hover:border-primary hover:pb-2 active:border-b-[3px] active:border-primary active:pb-2 "
@@ -156,7 +156,6 @@ const HeroSection = () => {
           <div class="wave wave3"></div>
           <div class="wave wave4"></div>
         </section>
-
       </div>
     </>
   );
