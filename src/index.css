@@ -1,3 +1,73 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.wave-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 120px; /* Increase height for taller waves */
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 120px; /* Match height for all waves */
+    background-image: url('./assets/wave.png'); /* Ensure the path is correct */
+    background-size: 1500px 120px; /* Adjust background size for smoother animation */
+}
+
+.wave1 {
+    animation: animate 30s linear infinite;
+    z-index: 1000;
+    opacity: 1;
+    animation-delay: 0.5s;
+}
+
+.wave2 {
+    animation: animate2 15s linear infinite;
+    z-index: 999;
+    opacity: 0.5;
+    animation-delay: -5s;
+    bottom: 10px; /* Adjust to fit your design */
+}
+
+.wave3 {
+    animation: animate 30s linear infinite;
+    z-index: 998;
+    opacity: 0.2;
+    animation-delay: -2s;
+    bottom: 20px; /* Adjust to fit your design */
+}
+
+.wave4 {
+    animation: animate2 15s linear infinite;
+    z-index: 997;
+    opacity: 0.7;
+    animation-delay: -5s;
+    bottom: 10px; /* Adjust to fit your design */
+}
+
+@keyframes animate {
+    0% {
+        background-position-x: 0;
+    }
+    100% {
+        background-position-x: 1500px/* Match background size */
+    }
+}
+
+@keyframes animate2 {
+    0% {
+        background-position-x: 0;
+    }
+    100% {
+        background-position-x: -1500px; /* Match background size */
+    }
+}
