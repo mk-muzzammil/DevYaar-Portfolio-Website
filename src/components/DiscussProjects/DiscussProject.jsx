@@ -2,13 +2,19 @@ import { Link } from "react-scroll";
 
 const DiscussProject = () => {
   return (
-    <div className="relative container w-screen h-[70vh]  bg-[url('/images/discussBg.jpg')] bg-cover bg-center font-Inter flex flex-col gap-4 justify-center items-center my-6 ">
-      <div className="absolute inset-0 bg-black opacity-70 z-10 w-[100%] h-[100%]"></div>
-      <div className="relative flex flex-col gap-4 items-center justify-center z-20 ">
-        <h3 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white  ">
-          Lets Discuss your Projects
-        </h3>
-        <p className="font-medium text-xs md:text-xl text-white tracking-wide">
+    <div className="relative w-screen h-[500px] sm:h-[400px] md:h-[500px] lg:h-[500px]">
+      <img
+        className="w-full h-full object-cover"
+        src="/images/discussBg.jpg"
+        alt="Banner"
+      />
+      <div className="absolute inset-0 bg-black bg-opacity-70"></div>
+
+      <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white gap-4 px-4">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-semibold mb-2">
+          Let's Discuss your Projects
+        </h1>
+        <p className="text-sm sm:text-base md:text-lg lg:text-lg mb-6">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit
         </p>
         <button
