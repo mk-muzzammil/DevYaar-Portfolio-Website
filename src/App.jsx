@@ -1,7 +1,9 @@
+import HeroSection from "./components/Hero/HeroSection";
+
 function App() {
   return (
     <>
-      <div className="text-red-500">Hello Muzzammil Gi</div>
+      <HeroSection />
     </>
   );
 }
