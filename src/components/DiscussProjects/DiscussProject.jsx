@@ -2,7 +2,7 @@ import { Link } from "react-scroll";
 
 const DiscussProject = () => {
   return (
-    <div className="relative container w-screen h-[70vh]  bg-[url('/images/discussBg.jpg')] bg-cover bg-center font-Inter flex flex-col gap-4 justify-center items-center my-6 border-2 border-red-500">
+    <div className="relative container w-screen h-[70vh]  bg-[url('/images/discussBg.jpg')] bg-cover bg-center font-Inter flex flex-col gap-4 justify-center items-center my-6 ">
       <div className="absolute inset-0 bg-black opacity-70 z-10 w-[100%] h-[100%]"></div>
       <div className="relative flex flex-col gap-4 items-center justify-center z-20 ">
         <h3 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white  ">
