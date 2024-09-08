@@ -1,6 +1,11 @@
 import { Link, animateScroll as scroll } from "react-scroll";
-
+import Drawer from "./Drawer";
+import { FaBars } from "react-icons/fa";
+import { useState } from "react";
 const HeroSection = () => {
+  const [drawerOpen, setDrawerOpen] = useState(false);
+
+  const toggleDrawer = () => setDrawerOpen(!drawerOpen);
   // #F85A40
   return (
     <>
@@ -17,11 +22,12 @@ const HeroSection = () => {
               duration={400}
               className="hover:cursor-pointer"
             >
-              <span className="text-primary">Tech</span>Theme
+              <img src="/images/logo.png" alt="Logo" className="w-[170px] " />
+              {/* <span className="text-primary">Tech</span>Theme */}
             </Link>
           </div>
           <div>
-            <ul className="flex gap-6 text-red-50 font-semibold ">
+            <ul className="flex gap-6 text-red-50 font-semibold hidden lg:flex">
               <li>
                 <Link
                   to="home"
@@ -113,17 +119,23 @@ const HeroSection = () => {
                 </Link>
               </li>
             </ul>
+            <button
+              onClick={toggleDrawer}
+              className="text-primary text-2xl lg:hidden"
+            >
+              <FaBars />
+            </button>
           </div>
         </nav>
         <div className="flex items-center justify-center my-20">
           <div className="relative z-20 flex flex-col gap-4 justify-center items-center  ">
-            <h1 className="text-6xl text-white tracking-widest font-light uppercase">
-              <span className="text-primary ">Tech</span>Theme
+            <h1 className=" text-4xl sm:text-4xl md:text-5xl lg:text-6xl text-white tracking-widest font-light uppercase">
+              <span className="text-primary ">Dev</span>Yaar
             </h1>
-            <p className="text-white font-bold tracking-normal text-4xl font-light mt-4">
+            <p className="text-white font-bold tracking-tight md:tracking-normal text-[1rem] sm:text-2xl md:text-3xl lg:text-4xl font-light mt-4">
               Our business is helping you grow your business
             </p>
-            <p className="text-[#B5B6B7] font-[400] tracking-normal text-xl font-light tracking-tight">
+            <p className="text-[#B5B6B7] font-[400] tracking-normal text-[0.7rem] sm:text-xl font-light tracking-tight">
               Top Web & Applications Solutions
             </p>
 
@@ -137,6 +149,7 @@ const HeroSection = () => {
             </button>
           </div>
         </div>
+        <Drawer isOpen={drawerOpen} onClose={toggleDrawer} />
       </div>
     </>
   );
