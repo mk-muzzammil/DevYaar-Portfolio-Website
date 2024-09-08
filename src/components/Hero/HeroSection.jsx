@@ -127,7 +127,7 @@ const HeroSection = () => {
             </button>
           </div>
         </nav>
-        <div className="flex items-center justify-center my-20">
+        <div className="flex items-center justify-center my-20 py-20 ">
           <div className="relative z-20 flex flex-col gap-4 justify-center items-center  ">
             <h1 className=" text-4xl sm:text-4xl md:text-5xl lg:text-6xl text-white tracking-widest font-light uppercase">
               <span className="text-primary ">Dev</span>Yaar
@@ -150,6 +150,13 @@ const HeroSection = () => {
           </div>
         </div>
         <Drawer isOpen={drawerOpen} onClose={toggleDrawer} />
+        <section class="wave-container">
+          <div class="wave wave1"></div>
+          <div class="wave wave2"></div>
+          <div class="wave wave3"></div>
+          <div class="wave wave4"></div>
+        </section>
+
       </div>
     </>
   );
