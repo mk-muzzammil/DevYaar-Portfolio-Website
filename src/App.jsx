@@ -1,7 +1,10 @@
+import HeroSection from "./components/Hero/HeroSection";
+import Services from "./components/services/services";
 function App() {
   return (
     <>
-      <div className="text-red-500">Hello Awais </div>
+      <HeroSection />
+      <Services />
     </>
   );
 }
