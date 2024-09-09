@@ -4,6 +4,8 @@ import About from "./components/AboutUs/About";
 import WhyUs from "./components/WhyUS/WhyUs";
 import DiscussProject from "./components/DiscussProjects/DiscussProject";
 import Faqs from "./components/FAQs/Faqs";
+import Team from "./components/Team/Team";
+import Contact from "./components/Contact/Contact";
 function App() {
   return (
     <>
@@ -13,7 +15,9 @@ function App() {
         <About />
         <WhyUs />
         <DiscussProject />
+        <Team />
         <Faqs />
+        <Contact />
       </div>
     </>
   );

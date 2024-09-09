@@ -51,10 +51,10 @@ const Services = () => {
         id="services"
         className="mt-2 mb-8 p-4 bg-white font-Inter overflow-hidden"
       >
-        <h1 className="text-4xl lg:text-5xl text-center text-secondary  font-bold tracking-wide mb-8">
+        <h1 className="text-4xl lg:text-5xl text-center text-secondary  font-bold tracking-wide mb-8 uppercase">
           Services
         </h1>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3 place-items-center gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3 place-items-center gap-8 text-start">
           {services.map((service) => {
             return (
               <Service
