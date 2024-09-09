@@ -11,7 +11,7 @@ const DiscussProject = () => {
       <div className="absolute inset-0 bg-black bg-opacity-70"></div>
 
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white gap-4 px-4">
-        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-semibold mb-2">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-semibold mb-2 uppercase">
           Let's Discuss your Projects
         </h1>
         <p className="text-sm sm:text-base md:text-lg lg:text-lg mb-6">
