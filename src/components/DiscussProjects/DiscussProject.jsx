@@ -21,7 +21,7 @@ const DiscussProject = () => {
           type="button"
           className="text-white font-normal border-white border-2 rounded-full bg-white/30 px-8 py-4 mt-4  hover:bg-primary hover:cursor-pointer hover:border-primary"
         >
-          <Link to="contact" smooth={true} duration={400}>
+          <Link to="Contact" smooth={true} duration={400}>
             Contact Us
           </Link>
         </button>
