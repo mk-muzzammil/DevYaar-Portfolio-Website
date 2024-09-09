@@ -33,7 +33,7 @@ const Team = () => {
   ];
 
   return (
-    <section className="py-12">
+    <section id="Team" className="py-12">
       <div className="flex flex-col justify-center items-center gap-6">
         <h2 className="text-4xl font-bold uppercase text-secondary">
           Our Team

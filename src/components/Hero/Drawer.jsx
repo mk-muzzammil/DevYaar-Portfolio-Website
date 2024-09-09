@@ -49,7 +49,7 @@ const Drawer = ({ isOpen, onClose }) => {
           </li>
           <li>
             <Link
-              to="Testimonials"
+              to="testimonials"
               smooth={true}
               duration={400}
               className="hover:cursor-pointer"
@@ -77,26 +77,7 @@ const Drawer = ({ isOpen, onClose }) => {
               FAQs
             </Link>
           </li>
-          <li>
-            <Link
-              to="Menu"
-              smooth={true}
-              duration={400}
-              className="hover:cursor-pointer"
-            >
-              Menu
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="News"
-              smooth={true}
-              duration={400}
-              className="hover:cursor-pointer"
-            >
-              News
-            </Link>
-          </li>
+
           <li>
             <Link
               to="Contact"

@@ -60,9 +60,9 @@ const HeroSection = () => {
               </li>
               <li>
                 <Link
-                  to="section1"
+                  to="testimonials"
                   smooth={true}
-                  duration={400}
+                  duration={500}
                   className="hover:cursor-pointer hover:border-b-[3px] hover:border-primary hover:pb-2 active:border-b-[3px] active:border-primary active:pb-2 "
                 >
                   Testimonials
@@ -70,9 +70,9 @@ const HeroSection = () => {
               </li>
               <li>
                 <Link
-                  to="section1"
+                  to="Team"
                   smooth={true}
-                  duration={400}
+                  duration={500}
                   className="hover:cursor-pointer hover:border-b-[3px] hover:border-primary hover:pb-2 active:border-b-[3px] active:border-primary active:pb-2 "
                 >
                   Team
@@ -80,39 +80,20 @@ const HeroSection = () => {
               </li>
               <li>
                 <Link
-                  to="section1"
+                  to="FAQs"
                   smooth={true}
-                  duration={400}
+                  duration={500}
                   className="hover:cursor-pointer hover:border-b-[3px] hover:border-primary hover:pb-2 active:border-b-[3px] active:border-primary active:pb-2 "
                 >
                   FAQs
                 </Link>
               </li>
+
               <li>
                 <Link
-                  to="section1"
+                  to="Contact"
                   smooth={true}
-                  duration={400}
-                  className="hover:cursor-pointer hover:border-b-[3px] hover:border-primary hover:pb-2 active:border-b-[3px] active:border-primary active:pb-2 "
-                >
-                  Menu
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="section1"
-                  smooth={true}
-                  duration={400}
-                  className="hover:cursor-pointer hover:border-b-[3px] hover:border-primary hover:pb-2 active:border-b-[3px] active:border-primary active:pb-2 "
-                >
-                  News
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="section1"
-                  smooth={true}
-                  duration={400}
+                  duration={500}
                   className="hover:cursor-pointer hover:border-b-[3px] hover:border-primary hover:pb-2 active:border-b-[3px] active:border-primary active:pb-2 "
                 >
                   Contact
@@ -150,11 +131,11 @@ const HeroSection = () => {
           </div>
         </div>
         <Drawer isOpen={drawerOpen} onClose={toggleDrawer} />
-        <section class="wave-container">
-          <div class="wave wave1"></div>
-          <div class="wave wave2"></div>
-          <div class="wave wave3"></div>
-          <div class="wave wave4"></div>
+        <section className="wave-container">
+          <div className="wave wave1"></div>
+          <div className="wave wave2"></div>
+          <div className="wave wave3"></div>
+          <div className="wave wave4"></div>
         </section>
       </div>
     </>
