@@ -97,7 +97,7 @@ const Testimonial = () => {
   };
 
   return (
-    <div className="py-20 bg-gray-100 w-screen">
+    <div id="testimonials" className="py-20 bg-gray-100 w-screen">
       <div className="text-center mb-10">
         <h2 className="text-3xl font-bold text-black uppercase">
           Testimonials
