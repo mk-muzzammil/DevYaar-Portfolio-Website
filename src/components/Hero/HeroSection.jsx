@@ -1,4 +1,4 @@
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 import Drawer from "./Drawer";
 import { FaBars } from "react-icons/fa";
 import { useState } from "react";
@@ -133,10 +133,10 @@ const HeroSection = () => {
               <span className="text-primary ">Dev</span>Yaar
             </h1>
             <p className="text-white font-bold tracking-tight md:tracking-normal text-[1rem] sm:text-2xl md:text-3xl lg:text-4xl font-light mt-4">
-              Our business is helping you grow your business
+              Your Trusted Yaar in Digital Development
             </p>
             <p className="text-[#B5B6B7] font-[400] tracking-normal text-[0.7rem] sm:text-xl font-light tracking-tight">
-              Top Web & Applications Solutions
+              We are a team of professionals who are passionate about what we do
             </p>
 
             <button
@@ -150,11 +150,11 @@ const HeroSection = () => {
           </div>
         </div>
         <Drawer isOpen={drawerOpen} onClose={toggleDrawer} />
-        <section class="wave-container">
-          <div class="wave wave1"></div>
-          <div class="wave wave2"></div>
-          <div class="wave wave3"></div>
-          <div class="wave wave4"></div>
+        <section className="wave-container">
+          <div className="wave wave1"></div>
+          <div className="wave wave2"></div>
+          <div className="wave wave3"></div>
+          <div className="wave wave4"></div>
         </section>
       </div>
     </>
