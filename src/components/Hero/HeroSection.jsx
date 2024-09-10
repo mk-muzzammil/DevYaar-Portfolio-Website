@@ -119,15 +119,14 @@ const HeroSection = () => {
             <p className="text-[#B5B6B7] font-[400] tracking-normal text-[0.7rem] sm:text-xl font-light tracking-tight">
               We are a team of professionals who are passionate about what we do
             </p>
-
-            <button
-              type="button"
-              className="text-white font-normal border-white border-2 rounded-full bg-white/30 px-8 py-4 mt-4  hover:border-gray-500"
-            >
-              <Link to="services" smooth={true} duration={400}>
+            <Link to="services" smooth={true} duration={400}>
+              <button
+                type="button"
+                className="text-white font-normal border-white border-2 rounded-full bg-white/30 px-8 py-4 mt-4  hover:border-gray-500"
+              >
                 Get Started
-              </Link>
-            </button>
+              </button>
+            </Link>
           </div>
         </div>
         <Drawer isOpen={drawerOpen} onClose={toggleDrawer} />
