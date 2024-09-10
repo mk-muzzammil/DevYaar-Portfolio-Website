@@ -10,12 +10,7 @@ const About = () => {
             About Us
           </h2>
           <p className="text-lg lg:text-xl text-white max-w-4xl mx-auto">
-            Welcome to DevYaarn, where we are committed to delivering
-            high-quality solutions tailored to meet your unique needs. Our team
-            of experts combines years of experience with innovative thinking to
-            provide services that help you achieve your goals. Whether you're
-            looking for cutting-edge technology or creative design, we've got
-            you covered.
+            At DevYaar, we provide high-quality digital solutions designed for small businesses and enterprises. We specialize in web development, mobile app development, web design, and content creation, ensuring seamless user experiences across all mobile devices and web pages. With a strong focus on SEO, we boost your brand’s visibility on search engines and social media platforms. Our team of expert social media marketers, email marketers, and content marketers works in real time to help your brand thrive online. Let DevYaar create a user-friendly and impactful digital presence for your business today!
           </p>
         </div>
         <div className="flex flex-wrap justify-center gap-10">
@@ -30,8 +25,7 @@ const About = () => {
                 Our Mission
               </h3>
               <p className="text-black text-base lg:text-lg">
-                To provide the best solutions that empower businesses to succeed
-                in a competitive market.
+              At DevYaar, our mission is to empower small businesses and enterprises by delivering cutting-edge digital solutions. Through innovative web development, mobile apps, and content creation, we ensure seamless user experiences while boosting brand visibility through effective SEO and social media marketing strategies.
               </p>
             </div>
           </div>
@@ -46,8 +40,7 @@ const About = () => {
                 Our Vision
               </h3>
               <p className="text-gray-600 text-base lg:text-lg">
-                To be the leading provider of innovative and sustainable
-                solutions that drive growth and success.
+              We envision DevYaar as a leader in the digital space, known for developing user-friendly platforms that drive growth and success. Our goal is to stay ahead of the curve in software development, web design, and real-time marketing, helping businesses succeed in an ever-changing digital landscape.
               </p>
             </div>
           </div>
