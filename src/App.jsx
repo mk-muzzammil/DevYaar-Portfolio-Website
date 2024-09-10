@@ -8,6 +8,7 @@ import Team from "./components/Team/Team";
 import Contact from "./components/Contact/Contact";
 import Testimonial from "./components/Testimonials/Testimonial";
 import Footer from "./components/Footer/footer";
+import LogoCrousal from "./components/LogoCrousal/LogoCrousal";
 function App() {
   return (
     <>
@@ -20,6 +21,7 @@ function App() {
         <Team />
         <Testimonial />
         <Faqs />
+        <LogoCrousal />
         <Contact />
         <Footer />
       </div>
