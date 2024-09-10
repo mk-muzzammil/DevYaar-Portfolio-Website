@@ -136,7 +136,7 @@ const HeroSection = () => {
               Your Trusted Yaar in Digital Development
             </p>
             <p className="text-[#B5B6B7] font-[400] tracking-normal text-[0.7rem] sm:text-xl font-light tracking-tight">
-              We are a team of professionals who are passionate about what we do
+              We are a team of talented developers making websites and apps
             </p>
 
             <button
