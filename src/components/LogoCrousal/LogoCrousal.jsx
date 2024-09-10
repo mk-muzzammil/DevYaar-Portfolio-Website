@@ -3,10 +3,9 @@ import React from "react";
 const logos = [
   "/images/ActiveClimateAction.png",
   "/images/EuropeanUnion.png",
-  "/images/ActiveClimateAction.png",
-  "/images/EuropeanUnion.png",
-  "/images/ActiveClimateAction.png",
-  "/images/EuropeanUnion.png",
+  "/images/ozeito.png",
+  "/images/contentCompany.png",
+  "/images/frontendMentor.png",
 ];
 
 const LogoCrousal = () => {
