@@ -60,11 +60,11 @@ const Contact = () => {
       id="Contact"
       className="flex flex-col items-center py-12 px-4 md:px-12 lg:px-24"
     >
-      <h2 className="text-3xl md:text-4xl font-bold mb-6 text-black text-center text-secondary uppercase">
+      <h2 className="text-3xl md:text-4xl font-bold mb-6 text-black text-center text-secondary uppercase dark:text-primary">
         Contact Us
       </h2>
       <div className="w-full max-w-6xl flex flex-col md:flex-row rounded-lg p-6 md:p-8 space-y-6 md:space-y-0 md:space-x-6">
-        <div className="bg-black text-white p-6 rounded-lg rounded-br-[80px] md:w-1/3">
+        <div className="bg-black dark:bg-primary text-white p-6 rounded-lg rounded-br-[80px] md:w-1/3">
           <h3 className="text-lg font-bold mb-4">Address:</h3>
           <p>11 West Town</p>
           <p>PBo 12345, United States</p>
@@ -86,7 +86,7 @@ const Contact = () => {
                 placeholder="Name*"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
-                className="w-full md:w-1/2 p-4 border rounded-lg bg-gray-100 font-medium focus:outline-none text-black rounded-br-[40px]"
+                className="w-full md:w-1/2 p-4 border rounded-lg bg-gray-100 dark:bg-transparent dark:border-primary dark:text-white font-medium focus:outline-none text-black rounded-br-[40px]"
                 required
               />
               <input
@@ -94,7 +94,7 @@ const Contact = () => {
                 placeholder="Email*"
                 value={email}
                 onChange={(e) => validateEmail(e.target.value)}
-                className={`w-full md:w-1/2 p-4 border rounded-lg bg-gray-100 font-medium focus:outline-none text-black rounded-br-[40px] ${
+                className={`w-full md:w-1/2 p-4 border rounded-lg bg-gray-100 dark:bg-transparent dark:border-primary dark:text-white font-medium focus:outline-none text-black rounded-br-[40px] ${
                   emailError ? "border-red-500" : ""
                 }`}
                 required
@@ -108,13 +108,13 @@ const Contact = () => {
               placeholder="Subject"
               value={subject}
               onChange={(e) => setSubject(e.target.value)}
-              className="w-full p-4 border rounded-lg bg-gray-100 font-medium focus:outline-none text-black rounded-br-[40px]"
+              className="w-full p-4 border rounded-lg bg-gray-100  dark:bg-transparent dark:border-primary dark:text-white font-medium focus:outline-none text-black rounded-br-[40px]"
             />
             <textarea
               placeholder="Write Your Message*"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
-              className="w-full p-4 h-40 border rounded-lg bg-gray-100 font-medium focus:outline-none text-black rounded-br-[40px]"
+              className="w-full p-4 h-40 border rounded-lg bg-gray-100  dark:bg-transparent dark:border-primary dark:text-white font-medium focus:outline-none text-black rounded-br-[40px]"
               required
             />
             <button

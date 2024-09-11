@@ -2,11 +2,11 @@ const About = () => {
   return (
     <section
       id="about"
-      className="py-20 bg-primary w-screen overflow-hidden font-Inter"
+      className="py-20 bg-primary dark:bg-black dark:text-white w-screen overflow-hidden font-Inter"
     >
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl lg:text-5xl font-bold text-white mb-6 uppercase">
+          <h2 className="text-4xl lg:text-5xl font-bold text-white dark:text-primary mb-6 uppercase">
             About Us
           </h2>
           <p className="text-lg lg:text-xl text-white max-w-4xl mx-auto">
@@ -20,32 +20,32 @@ const About = () => {
         </div>
         <div className="flex flex-wrap justify-center gap-10">
           <div className="w-full max-w-md p-4">
-            <div className="bg-white shadow-lg p-8 text-center rounded-lg h-full flex flex-col justify-between">
+            <div className="bg-white shadow-lg p-8 text-center rounded-lg h-full flex flex-col justify-between dark:bg-primary ">
               <img
                 src="/images/mission.png"
                 alt="Feature 1"
                 className="mx-auto mb-6 w-24 h-24 lg:w-32 lg:h-32"
               />
-              <h3 className="text-2xl lg:text-3xl font-semibold text-black mb-3">
+              <h3 className="text-2xl lg:text-3xl font-semibold text-black mb-3 dark:text-white">
                 Our Mission
               </h3>
-              <p className="text-black text-base lg:text-lg">
+              <p className="text-black text-base lg:text-lg dark:text-white">
                 To provide the best solutions that empower businesses to succeed
                 in a competitive market.
               </p>
             </div>
           </div>
           <div className="w-full max-w-md p-4">
-            <div className="bg-white shadow-lg p-8 text-center rounded-lg h-full flex flex-col justify-between">
+            <div className="bg-white shadow-lg p-8 text-center rounded-lg h-full flex flex-col justify-between dark:bg-primary">
               <img
                 src="/images/vision.png"
                 alt="Feature 2"
                 className="mx-auto mb-6 w-24 h-24 lg:w-32 lg:h-32"
               />
-              <h3 className="text-2xl lg:text-3xl font-semibold text-gray-800 mb-3">
+              <h3 className="text-2xl lg:text-3xl font-semibold text-gray-800 mb-3 dark:text-white">
                 Our Vision
               </h3>
-              <p className="text-gray-600 text-base lg:text-lg">
+              <p className="text-gray-600 text-base lg:text-lg dark:text-white">
                 To be the leading provider of innovative and sustainable
                 solutions that drive growth and success.
               </p>

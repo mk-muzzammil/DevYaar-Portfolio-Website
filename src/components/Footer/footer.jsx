@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white py-4 px-6 sm:px-12 md:px-24 flex flex-col sm:flex-row sm:justify-between items-center">
+    <footer className="bg-black dark:bg-primary/70 text-white py-4 px-6 sm:px-12 md:px-24 flex flex-col sm:flex-row sm:justify-between items-center">
       <div className="flex items-center mb-4 justify-center sm:justify-start sm:mb-0 sm:order-none w-[40%]">
         <Link to={"home"} duration={400}>
           <img src="/images/logo.png" alt="Logo" className="h-8 mr-4" />
@@ -24,7 +24,7 @@ const Footer = () => {
             href="https://www.instagram.com/devyaar.official/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-white hover:text-primary"
+            className="text-white hover:text-primary dark:hover:text-secondary"
           >
             <FaInstagram size={20} />
           </a>
@@ -32,7 +32,7 @@ const Footer = () => {
             href="https://www.linkedin.com/in/dev-yaar/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-white hover:text-primary"
+            className="text-white hover:text-primary dark:hover:text-secondary"
           >
             <FaLinkedin size={20} />
           </a>
@@ -40,7 +40,7 @@ const Footer = () => {
             href="https://www.facebook.com/profile.php?id=61565335510626"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-white hover:text-primary"
+            className="text-white hover:text-primary dark:hover:text-secondary"
           >
             <FaFacebookF size={20} />
           </a>

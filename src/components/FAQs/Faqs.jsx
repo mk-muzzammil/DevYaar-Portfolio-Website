@@ -41,7 +41,7 @@ const Faqs = () => {
   return (
     <div id="FAQs" className="container w-[90%] mx-auto my-8 font-Inter">
       <div className="flex flex-col items-center justify-center gap-2">
-        <h2 className=" text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-secondary mb-6 uppercase">
+        <h2 className=" text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-secondary dark:text-primary mb-6 uppercase">
           Frequently Asked Questions
         </h2>
         <p className="text-xl  lg:text-2xl text-black max-w-4xl mb-6">
@@ -52,30 +52,30 @@ const Faqs = () => {
       {faqs.map((faq, index) => (
         <div key={index} className="mb-4">
           <div
-            className="flex justify-between items-center cursor-pointer p-4 bg-gray-100 rounded-sm"
+            className="flex justify-between items-center cursor-pointer p-4 bg-gray-100 dark:bg-primary dark:text-white rounded-sm"
             onClick={() => toggleFaq(index)}
           >
             <div
               className={`flex flex-row items-center gap-4 ${
-                faq.isOpen ? "text-green-500" : "text-black"
+                faq.isOpen ? "text-green-500" : "text-black dark:text-white"
               }`}
             >
               <FaAngleDoubleRight />
               <p className="text-lg font-semibold">{faq.question}</p>
             </div>
             {faq.isOpen ? (
-              <div className="text-secondary text-2xl">
+              <div className="text-secondary dark:text-white text-2xl">
                 <FaAngleUp />
               </div>
             ) : (
-              <div className="text-secondary text-2xl">
+              <div className="text-secondary dark:text-white text-2xl">
                 <FaAngleDown />
               </div>
             )}
           </div>
           {faq.isOpen && (
-            <div className="p-4 bg-gray-100 rounded-sm">
-              <p className="text-gray-700">{faq.answer}</p>
+            <div className="p-4 bg-gray-100 dark:bg-primary rounded-sm">
+              <p className="text-gray-700 dark:text-white ">{faq.answer}</p>
             </div>
           )}
           <div className="mt-2"></div>
