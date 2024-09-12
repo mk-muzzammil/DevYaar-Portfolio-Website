@@ -25,7 +25,7 @@ const Team = () => {
     },
     {
       name: "Muhammad Bin Sikandar",
-      role: "Digital Marketer",
+      role: "Django Full-Stack Developer & Digital Marketer",
       image: "/images/team.jpg",
       LinkedIn: "https://www.linkedin.com/in/muhammad-bin-sikandar-2981712b9/",
       Github: "https://github.com/MuhammadBinSikandar",
@@ -39,7 +39,7 @@ const Team = () => {
           Our Team
         </h2>
         <p className="text-gray-500 mt-2 dark:text-white">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          Meet the Experts Behind Your Success
         </p>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
