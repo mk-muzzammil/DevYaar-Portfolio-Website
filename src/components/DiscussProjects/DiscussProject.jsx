@@ -15,7 +15,7 @@ const DiscussProject = () => {
           Let's Discuss your Projects
         </h1>
         <p className="text-sm sm:text-base md:text-lg lg:text-lg mb-6">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          Ready to get started? Contact us today to discuss your project and see how we can help
         </p>
         <button
           type="button"
