@@ -97,12 +97,17 @@ const Testimonial = () => {
   };
 
   return (
-    <div id="testimonials" className="py-20 bg-gray-100 w-screen">
+    <div
+      id="testimonials"
+      className="py-20 bg-gray-100 w-screen dark:bg-black/80 dark:text-white"
+    >
       <div className="text-center mb-10">
-        <h2 className="text-3xl font-bold text-black uppercase">
+        <h2 className="text-3xl font-bold text-black dark:text-primary uppercase">
           Testimonials
         </h2>
-        <p className="text-gray-600 mt-4">What our clients say about us</p>
+        <p className="text-gray-600 mt-4 dark:text-white">
+          What our clients say about us
+        </p>
       </div>
       <div className="flex justify-center space-x-4 overflow-hidden w-full px-6 md:px-64">
         {displayedTestimonials().map((testimonial, index) => (

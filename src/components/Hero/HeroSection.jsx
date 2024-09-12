@@ -2,6 +2,7 @@ import { Link } from "react-scroll";
 import Drawer from "./Drawer";
 import { FaBars } from "react-icons/fa";
 import { useState } from "react";
+import Toggle from "../Toggle/Toggle";
 const HeroSection = () => {
   const [drawerOpen, setDrawerOpen] = useState(false);
 
@@ -15,7 +16,7 @@ const HeroSection = () => {
       >
         <div className="absolute inset-0 bg-black opacity-70 w-[100%] h-[100%] z-10"></div>
         <nav className="relative flex justify-around p-8 z-20 items-center">
-          <div className="font-extrabold text-2xl text-white hover:cursor-pointer ">
+          <div className="font-extrabold text-2xl text-white hover:cursor-pointer flex gap-8 items-center ">
             <Link
               to="home"
               smooth={true}
@@ -25,6 +26,7 @@ const HeroSection = () => {
               <img src="/images/logo.png" alt="Logo" className="w-[170px] " />
               {/* <span className="text-primary">Tech</span>Theme */}
             </Link>
+            <Toggle />
           </div>
           <div>
             <ul className="flex gap-6 text-red-50 font-semibold hidden lg:flex">
@@ -130,7 +132,7 @@ const HeroSection = () => {
           </div>
         </div>
         <Drawer isOpen={drawerOpen} onClose={toggleDrawer} />
-        <section className="wave-container">
+        <section className="wave-container dark:hidden">
           <div className="wave wave1"></div>
           <div className="wave wave2"></div>
           <div className="wave wave3"></div>

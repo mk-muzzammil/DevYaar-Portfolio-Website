@@ -6,42 +6,42 @@ const Services = () => {
       path: "/images/web.png",
       title: "Web Development",
       description:
-        "DevYaar offers high-quality web development, design, and custom web apps for businesses of all sizes, ensuring responsive, animated and dynamic websites.",
+        "We build websites that serve as powerful marketing tools and bring memorable brand experiences.",
     },
     {
       id: 2,
       path: "/images/App.png",
-      title: "App Development",
+      title: "Graphic Design",
       description:
-        "DevYaar develops high-performance mobile apps tailored to your business needs, delivering seamless user experiences across iOS and Android.",
+        "We deliver eye-catching, memorable experiences that connect with people, just like you.",
     },
     {
       id: 3,
       title: "Digital Marketing",
       path: "/images/Marketing.png",
       description:
-        "Boost your online presence with DevYaar’s digital marketing solutions, designed to drive traffic, increase visibility, and grow your brand.",
+        "Digital marketing is the component of marketing that utilizes internet and online based digital technologies such as desktop computers, mobile phones and other digital media and platforms to promote products and services.",
     },
     {
       id: 4,
-      title: "Content Writing",
+      title: "Content Creation",
       path: "/images/ContentWritting.png",
       description:
-        "DevYaar provides high-quality content creation for websites, blogs, and social media to engage audiences and drive results.",
+        "Content creation is the contribution of information to any media and most especially to digital media for an end-user/audience in specific contexts.",
     },
     {
       id: 5,
       title: "Video Editing",
       path: "/images/VideoEditing.png",
       description:
-        "Transform your footage with DevYaar’s professional video editing services, delivering polished, engaging videos for any platform.",
+        "Video editing is the manipulation and arrangement of video shots. Video editing is used to structure and present all video information, including films and television shows, video advertisements and video essays.",
     },
     {
       id: 6,
       title: "Graphic Design",
       path: "/images/graphic.png",
       description:
-        "Our graphic design services create impactful visuals, from logos to marketing materials, that captivate and communicate your brand's message.",
+        "Graphic design is a craft where professionals create visual content to communicate messages. By applying visual hierarchy and page layout techniques, designers use typography and pictures to meet users'.",
     },
   ];
 
@@ -49,12 +49,12 @@ const Services = () => {
     <>
       <section
         id="services"
-        className="mt-2 mb-8 p-4 bg-white font-Inter overflow-hidden"
+        className="mt-2 mb-8 p-4 bg-white dark:bg-black/90 dark:text-white text-black font-Inter overflow-hidden"
       >
-        <h1 className="text-4xl lg:text-5xl text-center text-secondary  font-bold tracking-wide mb-8 uppercase">
+        <h1 className="text-4xl lg:text-5xl text-center text-secondary dark:text-primary font-bold tracking-wide mb-8 uppercase">
           Services
         </h1>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3 place-items-center gap-8 text-start">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3 place-items-center gap-8 ">
           {services.map((service) => {
             return (
               <Service
