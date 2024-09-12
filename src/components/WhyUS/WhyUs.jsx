@@ -11,6 +11,7 @@ const WhyUs = () => {
     { id: 7, name: "Content Writing" },
     { id: 8, name: "Graphics Designing" },
     { id: 9, name: "Video Editting" },
+    { id: 10, name: "Django Full Stack Development" },
   ];
 
   return (
@@ -20,19 +21,23 @@ const WhyUs = () => {
         className="flex flex-col gap-6 items-center my-8 font-Inter overflow-hidden "
       >
         <h1 className="text-4xl lg:text-5xl text-secondary font-bold uppercase dark:text-primary">
-          Why Us
+          Why Choose DevYaar?
         </h1>
         <p className="text-xl tracking-wide font-medium p-4">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          Partner with Us for Digital Excellence
         </p>
         <div className="flex flex-col lg:flex-row justify-around w-[90%]">
           <div className="lg:w-[50%] p-4 lg:p-6">
             <div className="flex flex-col gap-4  ">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Xonsectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua.
+                At DevYaar, we bring together a talented team of software
+                developers, computer programmers, web designers, and app
+                developers to deliver top-notch digital solutions. Our expertise
+                in website creation and code development ensures seamless,
+                innovative results tailored to your business needs. Whether
+                you're looking to build a custom website, develop an app, or
+                streamline your digital strategy, our skilled team is here to
+                bring your vision to life with precision and professionalism.
               </p>
               {skills.map((skill) => {
                 return (
