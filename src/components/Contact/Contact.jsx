@@ -24,16 +24,15 @@ const Contact = () => {
         {/* Contact Information */}
         <div className="bg-black text-white p-6 rounded-lg rounded-br-[80px] md:w-1/3">
           <h3 className="text-lg font-bold mb-4">Address:</h3>
-          <p>11 West Town</p>
-          <p>PBo 12345, United States</p>
+          <p>Islamabad</p>
+          <p>Pakistan</p>
 
           <h3 className="text-lg font-bold mt-6 mb-4">Phone:</h3>
-          <p>+1 1234 56 789</p>
-          <p>+1 1234 56 780</p>
+          <p>+92-319-7280131</p>
+          <p>+92-301-3514508</p>
 
           <h3 className="text-lg font-bold mt-6 mb-4">Email:</h3>
-          <p>info@example.com</p>
-          <p>email@example.com</p>
+          <p>devyaarofficial@gmail.com</p>
         </div>
 
         {/* Contact Form */}
