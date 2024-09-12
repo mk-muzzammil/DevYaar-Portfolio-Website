@@ -17,14 +17,14 @@ const DiscussProject = () => {
         <p className="text-sm sm:text-base md:text-lg lg:text-lg mb-6">
           Ready to get started? Contact us today to discuss your project and see how we can help
         </p>
-        <button
-          type="button"
-          className="text-white font-normal border-white border-2 rounded-full bg-white/30 px-8 py-4 mt-4  hover:bg-primary hover:cursor-pointer hover:border-primary"
-        >
-          <Link to="contact" smooth={true} duration={400}>
+        <Link to="Contact" smooth={true} duration={400}>
+          <button
+            type="button"
+            className="text-white font-normal border-white border-2 rounded-full bg-white/30 px-8 py-4 mt-4  hover:bg-primary hover:cursor-pointer hover:border-primary"
+          >
             Contact Us
-          </Link>
-        </button>
+          </button>
+        </Link>
       </div>
     </div>
   );

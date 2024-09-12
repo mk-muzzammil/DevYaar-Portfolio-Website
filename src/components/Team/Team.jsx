@@ -33,7 +33,7 @@ const Team = () => {
   ];
 
   return (
-    <section className="py-12">
+    <section id="team" className="py-12">
       <div className="flex flex-col justify-center items-center gap-6">
         <h2 className="text-4xl font-bold uppercase text-secondary">
           Our Team
@@ -48,7 +48,7 @@ const Team = () => {
             key={member.name}
             className="relative flex flex-col gap-4 items-center p-4 rounded-sm  "
           >
-            <div className="absolute left-[-4%] top-[10%]  text-gray-500 flex flex-col gap-2">
+            <div className="absolute left-[11%] sm:left-[8%] lg:left-[-4%] top-[10%]  text-gray-500 flex flex-col gap-2">
               <a href={member.LinkedIn} className="hover:text-primary">
                 <span className=" text-2xl">
                   <AiOutlineLinkedin />
