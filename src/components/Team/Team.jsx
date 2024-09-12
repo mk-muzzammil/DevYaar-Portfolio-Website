@@ -3,32 +3,32 @@ import { VscGithub } from "react-icons/vsc";
 const Team = () => {
   const teamMembers = [
     {
-      name: "Muhammad Muzzammil",
-      role: "Website Developer",
-      image: "/images/team.jpg",
-      LinkedIn: "https://www.linkedin.com/in/mk-muzzammil/",
-      Github: "https://github.com/mk-muzzammil",
-    },
-    {
-      name: "Muhammad Awais",
-      role: "Web and UiUx",
-      image: "/images/team.jpg",
-      LinkedIn: "https://www.linkedin.com/in/thatisawais/",
-      Github: "https://github.com/thatisawais",
-    },
-    {
       name: "Muhammad Ali",
-      role: "App Developer And Video Editer",
+      role: "App Developer & Video Editer",
       image: "/images/team.jpg",
       LinkedIn: "https://www.linkedin.com/in/muhammad-ali-4755ab276",
       Github: "https://github.com/AliHere76",
     },
     {
+      name: "Muhammad Awais",
+      role: "Shopify Expert & UI/UX Designer",
+      image: "/images/team.jpg",
+      LinkedIn: "https://www.linkedin.com/in/thatisawais/",
+      Github: "https://github.com/thatisawais",
+    },
+    {
       name: "Muhammad Bin Sikandar",
-      role: "Digital Marketer",
+      role: "Django Full-Stack Developer & Digital Marketer",
       image: "/images/team.jpg",
       LinkedIn: "https://www.linkedin.com/in/muhammad-bin-sikandar-2981712b9/",
       Github: "https://github.com/MuhammadBinSikandar",
+    },
+    {
+      name: "Muhammad Muzzammil",
+      role: "Full-Stack Developer",
+      image: "/images/team.jpg",
+      LinkedIn: "https://www.linkedin.com/in/mk-muzzammil/",
+      Github: "https://github.com/mk-muzzammil",
     },
   ];
 
@@ -39,7 +39,7 @@ const Team = () => {
           Our Team
         </h2>
         <p className="text-gray-500 mt-2">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          Meet the Experts Behind Your Success
         </p>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
