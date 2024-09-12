@@ -39,12 +39,15 @@ const Faqs = () => {
   };
 
   return (
-    <div id="FAQs" className="container w-[90%] mx-auto my-8 font-Inter">
+    <div
+      id="FAQs"
+      className="container w-[90%] mx-auto my-8 font-Inter dark:bg-black/90"
+    >
       <div className="flex flex-col items-center justify-center gap-2">
         <h2 className=" text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-secondary dark:text-primary mb-6 uppercase">
           Frequently Asked Questions
         </h2>
-        <p className="text-xl  lg:text-2xl text-black max-w-4xl mb-6">
+        <p className="text-xl  lg:text-2xl text-black dark:text-white max-w-4xl mb-6">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit
         </p>
       </div>
