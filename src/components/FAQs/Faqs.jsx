@@ -19,7 +19,8 @@ const Faqs = () => {
     {
       question: "How many revisions we offer for our services?",
       answer:
-        "Choosing our digital marketing services offers a multitude of benefits. We help businesses reduce costs through optimized strategies and provide a long-term plan designed to sustain market share and foster continued growth. Our experts craft tailored marketing strategies that enhance your brand visibility, drive traffic, and boost conversions across all digital channels, from social media to search engines. By focusing on both short-term goals and a viable long-term approach, we ensure your business remains competitive and adaptable to changing market trends.",
+        "We offer a generous revision policy to ensure customer satisfaction across all our services : Web Development: Up to 15 revisions for custom web design and development projects. Django Full Stack Development: Up to 12 revisions. WordPress Development: Up to 10 revisions.MERN Stack Development: Up to 12 revisions.Custom Shopify Stores: Up to 8 revisions.App Development: Up to 10 revisions.Digital Marketing: Up to 5 revisions on strategy and campaignadjustments.Content Writing: Up to 7 revisions for refining content as per clientfeedback.Graphics Designing: Up to 10 revisions to perfect visual assets.Video Editing: Up to 8 revisions for finalizing video content.These revision limits ensure we can fine-tune every detail whilekeeping the project on track.",
+
       isOpen: false,
     },
     {
