@@ -4,27 +4,28 @@ import { FaAngleUp } from "react-icons/fa6";
 const Faqs = () => {
   const [faqs, setFaqs] = useState([
     {
-      question: "What does the subscription include?",
+      question: "What services we offer in Web Development?",
       answer:
-        "You can pay online with confidence, all transactions made on the Mathrix.fr site are 100% secure and ensured by our payment partner Stripe. We pay particular attention to the security of your data: your credit card information is encrypted using the SSL (Secure Socket Layer) protocol and no bank data is stored on our network.",
+        "We offer a comprehensive range of web development services, including custom website design, web application development, e-commerce solutions, and more. Our team of expert web developers and designers collaborate to create user-friendly and visually stunning websites tailored to your business needs. We provide custom Figma wireframe designs on demand for UI finalization and deliver a complete roadmap with a modular breakdown of your website’s architecture. Flexible revisions are available to ensure the final product aligns with your vision. Whether it’s a simple landing page or a complex web application, we have the experience to bring your ideas to life. Contact us today to learn more about how our web development solutions can help grow your business.",
       isOpen: false,
     },
     {
-      question: "What is web domain and hosting?",
+      question:
+        "What are benefits for choosing our Digital Marketing Services?",
       answer:
-        "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+        "Choosing our digital marketing services offers a multitude of benefits. We help businesses reduce costs through optimized strategies and provide a long-term plan designed to sustain market share and foster continued growth. Our experts craft tailored marketing strategies that enhance your brand visibility, drive traffic, and boost conversions across all digital channels, from social media to search engines. By focusing on both short-term goals and a viable long-term approach, we ensure your business remains competitive and adaptable to changing market trends.",
       isOpen: false,
     },
     {
-      question: "Which server is best for windows linux and windows ?",
+      question: "How many revisions we offer for our services?",
       answer:
-        "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+        "Choosing our digital marketing services offers a multitude of benefits. We help businesses reduce costs through optimized strategies and provide a long-term plan designed to sustain market share and foster continued growth. Our experts craft tailored marketing strategies that enhance your brand visibility, drive traffic, and boost conversions across all digital channels, from social media to search engines. By focusing on both short-term goals and a viable long-term approach, we ensure your business remains competitive and adaptable to changing market trends.",
       isOpen: false,
     },
     {
-      question: "Why organic SEO is important for all businesses  ?",
+      question: "What do we offer in Content Writing Services?",
       answer:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam iste porro, id ratione eos neque itaque assumenda cum incidunt consequuntur provident laudantium quia quae beatae natus. Possimus quo suscipit doloremque.",
+        "Our content writing services provide 100% organic, SEO-optimized content tailored to meet search engine standards and user needs. We conduct thorough research beforehand to ensure the content is relevant, engaging, and targeted to your audience. Additionally, we offer a content calendar as an add-on to help you boost your reach and stay consistent with your content marketing efforts. Whether it’s blog posts, website copy, or social media content, we deliver high-quality content designed to rank and engage your audience.",
       isOpen: false,
     },
     // Add more FAQs as needed
@@ -48,7 +49,7 @@ const Faqs = () => {
           Frequently Asked Questions
         </h2>
         <p className="text-xl  lg:text-2xl text-black dark:text-white max-w-4xl mb-6">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          Breakdown of our Services
         </p>
       </div>
 
