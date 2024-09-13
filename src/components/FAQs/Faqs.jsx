@@ -62,7 +62,7 @@ const Faqs = () => {
           >
             <div
               className={`flex flex-row items-center gap-4 ${
-                faq.isOpen ? "text-green-500" : "text-black dark:text-white"
+                faq.isOpen ? "text-primary" : "text-black dark:text-white"
               }`}
             >
               <FaAngleDoubleRight />

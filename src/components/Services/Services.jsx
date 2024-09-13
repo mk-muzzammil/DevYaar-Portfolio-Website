@@ -20,7 +20,7 @@ const Services = () => {
       title: "Digital Marketing",
       path: "/images/Marketing.png",
       description:
-        "Digital marketing is the component of marketing that utilizes internet and online based digital technologies such as desktop computers, mobile phones and other digital media and platforms to promote products and services.",
+        "Digital marketing is the component of marketing that utilizes internet and online based digital technologies such as desktop computers, mobile phones and other platforms to promote products and services.",
     },
     {
       id: 4,
