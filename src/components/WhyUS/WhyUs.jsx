@@ -18,15 +18,15 @@ const WhyUs = () => {
     <>
       <div
         id="WhyUs"
-        className="flex flex-col gap-6 items-center my-8 font-Inter overflow-hidden "
+        className="flex flex-col gap-6 items-center my-8 font-Inter overflow-hidden p-6 sm:p-4"
       >
-        <h1 className="text-4xl lg:text-5xl text-secondary font-bold uppercase dark:text-primary">
+        <h1 className="text-2xl sm:text-4xl text-center  lg:text-5xl  text-secondary font-bold uppercase dark:text-primary">
           Why Choose DevYaar?
         </h1>
-        <p className="text-xl tracking-wide font-medium p-4">
+        <p className="text-xl  sm:text-xl text-center  lg:text-3xl tracking-wide font-medium p-4">
           Partner with Us for Digital Excellence
         </p>
-        <div className="flex flex-col lg:flex-row justify-around w-[90%]">
+        <div className="flex flex-col lg:flex-row justify-around ">
           <div className="lg:w-[50%] p-4 lg:p-6">
             <div className="flex flex-col gap-4  ">
               <p>

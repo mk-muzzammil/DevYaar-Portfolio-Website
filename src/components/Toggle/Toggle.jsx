@@ -3,13 +3,9 @@ import { IoMoonOutline } from "react-icons/io5";
 import { GoSun } from "react-icons/go";
 
 const Toggle = () => {
-  // Set initial theme state based on localStorage or system preference
+  // Default to light mode and check localStorage for theme preference
   const [darkMode, setDarkMode] = useState(() => {
-    if (localStorage.getItem("theme")) {
-      return localStorage.getItem("theme") === "dark";
-    } else {
-      return window.matchMedia("(prefers-color-scheme: dark)").matches;
-    }
+    return localStorage.getItem("theme") === "dark";
   });
 
   // Toggle dark mode
@@ -17,7 +13,7 @@ const Toggle = () => {
     setDarkMode(!darkMode);
   };
 
-  // Apply dark mode class on <html> and store preference in localStorage
+  // Apply or remove dark mode class and store preference in localStorage
   useEffect(() => {
     if (darkMode) {
       document.documentElement.classList.add("dark");

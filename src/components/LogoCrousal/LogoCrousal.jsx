@@ -12,8 +12,8 @@ const LogoCrousal = () => {
   return (
     <div className="relative py-4 dark:bg-primary">
       {/* Add fading gradient effect on the left and right */}
-      <div className="absolute inset-y-0 left-0 w-32 bg-white dark:bg-black/90 z-10"></div>
-      <div className="absolute inset-y-0 right-0 w-32 bg-white z-10 dark:bg-black/90"></div>
+      <div className="absolute inset-y-0 left-0 w-32 bg-white dark:bg-black/90 z-10 hidden sm:flex"></div>
+      <div className="absolute inset-y-0 right-0 w-32 bg-white z-10 dark:bg-black/90 hidden sm:flex"></div>
 
       {/* Marquee container */}
       <div className="overflow-hidden relative">

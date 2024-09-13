@@ -49,7 +49,7 @@ const Services = () => {
     <>
       <section
         id="services"
-        className="mt-2 mb-8 p-4 bg-white dark:bg-black/90 dark:text-white text-black font-Inter overflow-hidden"
+        className="mt-2 mb-8 p-6 sm:p-4 bg-white dark:bg-black/90 dark:text-white text-black font-Inter overflow-hidden"
       >
         <h1 className="text-4xl lg:text-5xl text-center text-secondary dark:text-primary font-bold tracking-wide mb-8 uppercase">
           Services

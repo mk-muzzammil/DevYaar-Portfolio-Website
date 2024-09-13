@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 const TestimonialCard = ({ name, position, image, rating, feedback }) => {
   return (
-    <div className="bg-primary shadow-md rounded-md rounded-br-[4rem] p-6 flex flex-col max-w-xs">
+    <div className="bg-primary shadow-md rounded-md rounded-br-[4rem] p-6 flex flex-col max-w-xs h-[17rem]">
       <div className="flex justify-start items-center gap-4">
         <img src={image} alt={name} className="w-20 h-20 rounded-full" />
         <div className="flex flex-col justify-start">

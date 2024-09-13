@@ -5,7 +5,7 @@ import { IoCloseSharp } from "react-icons/io5";
 const Drawer = ({ isOpen, onClose }) => {
   return (
     <div
-      className={`z-30 fixed top-0 right-0 w-64 h-full bg-primary text-white transform ${
+      className={`z-30 fixed top-0 right-0 w-[20rem] h-full bg-primary text-white transform ${
         isOpen ? "translate-x-0" : "translate-x-full"
       } transition-transform duration-300 ease-in-out`}
     >
@@ -23,6 +23,7 @@ const Drawer = ({ isOpen, onClose }) => {
               smooth={true}
               duration={400}
               className="hover:cursor-pointer"
+              onClick={onClose}
             >
               Home
             </Link>
@@ -33,6 +34,7 @@ const Drawer = ({ isOpen, onClose }) => {
               smooth={true}
               duration={400}
               className="hover:cursor-pointer"
+              onClick={onClose}
             >
               Services
             </Link>
@@ -43,6 +45,7 @@ const Drawer = ({ isOpen, onClose }) => {
               smooth={true}
               duration={400}
               className="hover:cursor-pointer"
+              onClick={onClose}
             >
               About
             </Link>
@@ -53,6 +56,7 @@ const Drawer = ({ isOpen, onClose }) => {
               smooth={true}
               duration={400}
               className="hover:cursor-pointer"
+              onClick={onClose}
             >
               Testimonials
             </Link>
@@ -63,6 +67,7 @@ const Drawer = ({ isOpen, onClose }) => {
               smooth={true}
               duration={400}
               className="hover:cursor-pointer"
+              onClick={onClose}
             >
               Team
             </Link>
@@ -73,6 +78,7 @@ const Drawer = ({ isOpen, onClose }) => {
               smooth={true}
               duration={400}
               className="hover:cursor-pointer"
+              onClick={onClose}
             >
               FAQs
             </Link>
@@ -84,6 +90,7 @@ const Drawer = ({ isOpen, onClose }) => {
               smooth={true}
               duration={400}
               className="hover:cursor-pointer"
+              onClick={onClose}
             >
               Contact
             </Link>
