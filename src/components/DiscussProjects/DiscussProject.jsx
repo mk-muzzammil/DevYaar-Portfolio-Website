@@ -14,7 +14,7 @@ const DiscussProject = () => {
         <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-semibold mb-2 uppercase dark:text-primary">
           Let's Discuss your Projects
         </h1>
-        <p className="text-sm sm:text-base md:text-lg lg:text-lg mb-6">
+        <p className="text-sm sm:text-xl text-white/70 md:text-xl capitalize lg:text-2xl mb-6">
           Ready to get started? Contact us today to discuss your project and see
           how we can help
         </p>

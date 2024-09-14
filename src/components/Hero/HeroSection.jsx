@@ -118,7 +118,7 @@ const HeroSection = () => {
             <p className="text-white font-bold tracking-tight md:tracking-normal text-[1rem] sm:text-2xl md:text-3xl lg:text-4xl font-light mt-4">
               Your Trusted Yaar in Digital Development
             </p>
-            <p className="text-[#B5B6B7] font-[400] tracking-normal text-[0.7rem] sm:text-xl font-light tracking-tight">
+            <p className="text-white/70 font-[400] tracking-normal text-[0.7rem] sm:text-xl lg:text-2xl  font-light tracking-tight">
               We are a team of professionals who are passionate about what we do
             </p>
             <Link to="services" smooth={true} duration={400}>

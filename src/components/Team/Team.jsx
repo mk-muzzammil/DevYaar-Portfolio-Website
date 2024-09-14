@@ -38,7 +38,7 @@ const Team = () => {
         <h2 className="text-4xl font-bold uppercase text-secondary dark:text-primary">
           Our Team
         </h2>
-        <p className="text-gray-500 mt-2 dark:text-white">
+        <p className="text-gray-500 mt-2 text-center  text-xl sm:text-xl lg:text-2xl capitalize dark:text-white/70">
           Meet the Experts Behind Your Success
         </p>
       </div>
@@ -48,7 +48,7 @@ const Team = () => {
             key={member.name}
             className="relative flex flex-col gap-4 items-center p-4 rounded-sm  "
           >
-            <div className="absolute left-[11%] sm:left-[8%] lg:left-[-4%] top-[10%]  text-gray-500 dark:text-white flex flex-col gap-2">
+            <div className="absolute left-[11%] sm:left-[8%] lg:left-[-4%] top-[10%]  text-gray-500 dark:text-gray-400 flex flex-col gap-2">
               <a href={member.LinkedIn} className="hover:text-primary">
                 <span className=" text-2xl">
                   <AiOutlineLinkedin />
@@ -66,10 +66,10 @@ const Team = () => {
               className="w-100 h-80 rounded-sm rounded-br-[3.5rem] mb-4 object-cover"
             />
 
-            <h3 className="text-2xl font-bold text-center break-words text-black dark:text-white">
+            <h3 className="text-2xl font-bold text-center break-words text-black dark:text-white/90">
               {member.name}
             </h3>
-            <p className="text-gray-500 text-xl break-words text-center dark:text-white">
+            <p className="text-gray-500 text-[1rem] break-words text-center dark:text-white/70">
               {member.role}
             </p>
           </div>

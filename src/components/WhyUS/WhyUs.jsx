@@ -23,7 +23,7 @@ const WhyUs = () => {
         <h1 className="text-2xl sm:text-4xl text-center  lg:text-5xl  text-secondary font-bold uppercase dark:text-primary">
           Why Choose DevYaar?
         </h1>
-        <p className="text-xl  sm:text-xl text-center  lg:text-3xl tracking-wide font-medium p-4">
+        <p className="text-xl  sm:text-xl text-center text-white/70  lg:text-2xl capitalize tracking-wide font-medium p-4">
           Partner with Us for Digital Excellence
         </p>
         <div className="flex flex-col lg:flex-row justify-around ">

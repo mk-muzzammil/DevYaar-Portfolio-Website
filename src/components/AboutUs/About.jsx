@@ -9,7 +9,7 @@ const About = () => {
           <h2 className="text-4xl lg:text-5xl font-bold text-white dark:text-white mb-6 uppercase">
             About Us
           </h2>
-          <p className="text-lg lg:text-xl text-white max-w-4xl mx-auto">
+          <p className="text-lg sm:text-xl capitalize lg:text-2xl text-white/70 max-w-4xl mx-auto">
             Welcome to DevYaarn, where we are committed to delivering
             high-quality solutions tailored to meet your unique needs. Our team
             of experts combines years of experience with innovative thinking to

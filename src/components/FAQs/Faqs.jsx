@@ -43,13 +43,13 @@ const Faqs = () => {
   return (
     <div
       id="FAQs"
-      className="container p-6 sm:p-4 w-[90%] mx-auto my-8 font-Inter dark:bg-black/90"
+      className="container p-6 sm:p-4 w-[90%] mx-auto my-8 font-Inter dark:bg-[#12141D]"
     >
       <div className="flex flex-col items-center justify-center gap-2">
         <h2 className=" text-2xl text-center sm:text-3xl md:text-4xl lg:text-5xl font-bold text-secondary dark:text-primary mb-6 uppercase">
           Frequently Asked Questions
         </h2>
-        <p className="text-xl  text-center lg:text-2xl text-black dark:text-white max-w-4xl mb-6">
+        <p className="text-xl  text-center lg:text-2xl text-black dark:text-white/70 capitalize max-w-4xl mb-6">
           Breakdown of our Services
         </p>
       </div>
@@ -62,7 +62,9 @@ const Faqs = () => {
           >
             <div
               className={`flex flex-row items-center gap-4 ${
-                faq.isOpen ? "text-primary" : "text-black dark:text-white"
+                faq.isOpen
+                  ? "text-primary dark:text-white"
+                  : "text-black dark:text-white"
               }`}
             >
               <FaAngleDoubleRight />

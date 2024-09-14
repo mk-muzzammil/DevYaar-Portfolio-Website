@@ -99,13 +99,13 @@ const Testimonial = () => {
   return (
     <div
       id="testimonials"
-      className="py-20 bg-gray-100 w-screen dark:bg-black/80 dark:text-white"
+      className="py-20 bg-gray-100 w-screen dark:bg-[#12141D] dark:text-white"
     >
       <div className="text-center mb-10">
         <h2 className="text-3xl font-bold text-black dark:text-primary uppercase">
           Testimonials
         </h2>
-        <p className="text-gray-600 mt-4 dark:text-white">
+        <p className="text-gray-600 text-xl sm:text-xl  lg:text-2xl capitalize mt-4 dark:text-white/70">
           What our clients say about us
         </p>
       </div>
