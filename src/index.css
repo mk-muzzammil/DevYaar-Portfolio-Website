@@ -71,3 +71,23 @@
     background-position-x: -1500px; /* Match background size */
   }
 }
+h1 span,
+p span {
+  --delay: calc((var(--char-index) + 1) * 300ms);
+  animation: breathe 3s infinite both;
+  animation-delay: var(--delay);
+}
+
+@keyframes breathe {
+  0%,
+  100% {
+    font-variation-settings: "wght" 100, "wdth" 85;
+  }
+  50% {
+    font-variation-settings: "wght" 400, "wdth" 100;
+  }
+}
+
+h1:hover span {
+  animation-play-state: paused;
+}

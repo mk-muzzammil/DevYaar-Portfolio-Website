@@ -7,6 +7,8 @@ const HeroSection = () => {
   const [drawerOpen, setDrawerOpen] = useState(false);
 
   const toggleDrawer = () => setDrawerOpen(!drawerOpen);
+  const heading = "DevYaar";
+  const para = "Your Trusted Yaar in Digital Development";
   // #F85A40
   return (
     <>
@@ -112,13 +114,29 @@ const HeroSection = () => {
         </nav>
         <div className="flex items-center justify-center my-20 py-20 ">
           <div className="relative z-20 flex flex-col gap-4 justify-center items-center  ">
-            <h1 className=" text-4xl sm:text-4xl md:text-5xl lg:text-6xl text-white tracking-widest font-light uppercase">
-              <span className="text-primary ">Dev</span>Yaar
+            <h1 className="text-4xl sm:text-4xl md:text-5xl lg:text-6xl text-primary tracking-widest font-light uppercase">
+              {heading.split("").map((char, index) => (
+                <span
+                  key={index}
+                  className={`inline-block ${char === " " ? "mx-1" : ""}`}
+                  style={{ "--char-index": index }}
+                >
+                  {char}
+                </span>
+              ))}
             </h1>
-            <p className="text-white font-bold tracking-tight md:tracking-normal text-[1rem] sm:text-2xl md:text-3xl lg:text-4xl font-light mt-4">
-              Your Trusted Yaar in Digital Development
+            <p className="text-white  tracking-tight md:tracking-normal text-[1rem] sm:text-2xl md:text-3xl lg:text-4xl font-light mt-4">
+              {para.split("").map((char, index) => (
+                <span
+                  key={index}
+                  className={`inline-block ${char === " " ? "mx-1" : ""}`}
+                  style={{ "--char-index": index }}
+                >
+                  {char}
+                </span>
+              ))}
             </p>
-            <p className="text-white/70 font-[400] tracking-normal text-[0.7rem] sm:text-xl lg:text-2xl  font-light tracking-tight">
+            <p className="text-white/70 text-[0.7rem] sm:text-xl lg:text-2xl  font-light tracking-tight">
               We are a team of professionals who are passionate about what we do
             </p>
             <Link to="services" smooth={true} duration={400}>
