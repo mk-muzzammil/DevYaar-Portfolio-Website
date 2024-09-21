@@ -26,7 +26,7 @@ const WhyUs = () => {
         <p className="text-xl  sm:text-xl text-center text-white/70  lg:text-2xl capitalize tracking-wide font-medium p-4">
           Partner with Us for Digital Excellence
         </p>
-        <div className="flex flex-col lg:flex-row justify-around ">
+        <div className="flex flex-col lg:flex-row   justify-center">
           <div className="lg:w-[50%] p-4 lg:p-6">
             <div className="flex flex-col gap-4  ">
               <p>
@@ -51,9 +51,9 @@ const WhyUs = () => {
               })}
             </div>
           </div>
-          <div className="lg:w-[50%] p-4 lg:p-6 self-center">
+          <div className="lg:w-[40%] p-4 lg:p-6 self-center">
             <img
-              className="sm:w-[500px]"
+              className="sm:w-[600px]"
               src="/images/WhyUs.png"
               alt="Why Us Image"
             />
