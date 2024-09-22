@@ -11,31 +11,36 @@ const projects = [
     category: "Web Dev",
     image: "/images/img1.png",
     title: "Elibrary Dashboard Web App",
-    description: "This is an eLibrary dashboard web app built with React.",
-    githubLink: "https://github.com/user/elibrary-dashboard-web-app",
+    description:
+      "This project focuses on building a robust web application with several key features. The backend is developed using Node.js, Express.js, and MongoDB, with API endpoints tested through Postman. The frontend utilizes Next.js and Tailwind CSS, offering a dynamic eLibrary that displays detailed book descriptions. An Admin Dashboard, built in React.js, allows full control over book management, including creating, editing, deleting, and reading, with integrated authentication and authorization. Cloudinary is used for managing book PDFs and images, and features like pagination, bookmarking, and caching are efficiently handled.",
+    githubLink: "https://github.com/mk-muzzammil/MERN-E-Book-Backend.git",
   },
   {
     category: "Web Dev",
     image: "/images/img2.png",
     title: "Game Zone Ecomerce App",
-    description: "This is a game zone eCommerce app built with React.",
-    githubLink: "https://github.com/user/game-zone-ecommerce-app",
+    description:
+      "This project highlights several advanced backend development features. It includes secure user authentication and authorization, managing roles, permissions, and logins. Input validation is implemented on both client and server sides to ensure data integrity. The project integrates Cloudinary for image uploading, processing, and secure storage, along with dynamic PDF generation for invoices and reports. It also employs CSRF protection and session management for enhanced security. EJS templates are used for dynamic front-end rendering, and MongoDB provides scalable and efficient data storage with a flexible schema design.",
+    githubLink:
+      "https://github.com/mk-muzzammil/Gaming-Ecomerce-Website-MERN-Project.git",
   },
   {
     category: "Web Dev",
     image: "/images/img3.png",
     title: "Challenge Habit App",
     description:
-      "An app that helps users build strong habits through challenges.",
-    githubLink: "https://github.com/user/challenge-habit-app",
+      "This project is the result of my internship at Ozeito, where I developed a multi-page website for the company. The frontend is designed to provide a user-friendly experience, showcasing services, company culture, and what makes Ozeito unique. You can explore the project here: Project Link. I'm proud to have contributed to Ozeito's digital presence and appreciate any feedback.",
+    githubLink:
+      "https://github.com/mk-muzzammil/Challenges-Habit-App-Using-HTML-CSS-JS-.git",
   },
   {
     category: "Web Dev",
     image: "/images/img4.png",
     title: "Study Giene App",
     description:
-      "An app that assists students in managing their study routines.",
-    githubLink: "https://github.com/user/study-giene-app",
+      "Study Gene App This web application, the Study Gene App, is designed to provide a comprehensive educational experience for students. It incorporates features such as navigation, user authentication, mobile responsiveness, and sections for learning, testimonials, tutorials, subscription plans, and more",
+    githubLink:
+      "https://github.com/mk-muzzammil/Study-Giene-School-Website-Frontend-design.git",
   },
   {
     category: "Web Dev",
@@ -53,6 +58,48 @@ const projects = [
     description:
       "This project is a Weather Dashboard Application designed to display real-time and historical weather data from a weather station connected to a Misol tablet. The data is fetched and stored in MongoDB and visualized through interactive charts. The dashboard includes features like current weather conditions, historical data trends, and predictions based on machine learning models.",
     githubLink: "https://github.com/MuhammadBinSikandar/WeatherApp",
+  },
+  {
+    category: "Web Dev",
+    image: "/images/img7.png",
+    title:
+      "Build the foundations for a Software as a Service business by leveraging Django, Tailwind, htmx, Neon Postgres, Redis, and more.",
+    description:
+      "The goal of this project is to learn how to create a reusable foundation for building SaaS products. When release, this course will span multiple topics and give you a solid foundation into build your business.",
+    githubLink: "https://github.com/MuhammadBinSikandar/SAAS_PLATFORM",
+  },
+  {
+    category: "Content Writing",
+    image: "/images/img8.png",
+    title: "Node js promise (GhostWritten).",
+    description:
+      "Promises in Node.js are an enhanced version of callbacks that allow handling the code flow asynchronously as javascript is a synchronous language.",
+    githubLink: "https://linuxhint.com/node-js-promise/",
+  },
+  {
+    category: "Content Writing",
+    image: "/images/img9.png",
+    title: "Node.js Send Email",
+    description:
+      " To send an email in Node.js there are multiple ways and the most common are using an SMTP server or using the API of an email service provider.",
+    githubLink: "https://linuxhint.com/nodejs-send-email/",
+  },
+  {
+    category: "Content Writing",
+    image: "/images/img10.png",
+    title: "Title: WebSockets node js",
+    description:
+      " WebSockets in Node.js are a two-way gateway for real-time communication, and they provide better connectivity over conventional HTTP protocol.",
+    githubLink: "https://linuxhint.com/websockets-node-js/",
+  },
+  {
+    category: "Content Writing",
+    image: "/images/img11.png",
+    title: "VirtualBox vs Hyper-V vs VMware | Detailed Comparison",
+    description:
+      " Hyper-V is great for Windows-based OS, VirtualBox is versatile and free, and VMware is more scalable and optimal and is used in larger organizations.",
+    githubLink:
+      "https://linuxhint.com/virtualbox-vs-hyper-vs-vmware-detailed-comparison/",
   },
 ];
 
@@ -184,7 +231,9 @@ const Projects = () => {
                   rel="noopener noreferrer"
                   className="text-white border-2 border-white px-4 py-2 rounded-lg hover:bg-white hover:text-black transform opacity-0 translate-y-8 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500"
                 >
-                  View on GitHub
+                  {project.category === "Content Writing"
+                    ? "Read More"
+                    : " View Project"}
                 </a>
               </div>
             </SwiperSlide>
