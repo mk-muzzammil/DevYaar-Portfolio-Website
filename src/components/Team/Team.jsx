@@ -1,6 +1,13 @@
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { VscGithub } from "react-icons/vsc";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const Team = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   const teamMembers = [
     {
       name: "Muhammad Muzzammil",
@@ -42,7 +49,7 @@ const Team = () => {
           Meet the Experts Behind Your Success
         </p>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
+      <div data-aos="flip-up" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
         {teamMembers.map((member) => (
           <div
             key={member.name}
