@@ -91,3 +91,17 @@ p span {
 h1:hover span {
   animation-play-state: paused;
 }
+
+@media (max-width: 768px) {
+  .project-card {
+    width: 100vw;
+    height: 50vh;
+  }
+}
+
+@media (min-width: 768px) {
+  .project-card {
+    width: 50vw;
+    height: 60vh;
+  }
+}

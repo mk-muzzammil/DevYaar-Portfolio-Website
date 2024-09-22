@@ -9,12 +9,14 @@ import Contact from "./components/Contact/Contact";
 import Testimonial from "./components/Testimonials/Testimonial";
 import Footer from "./components/Footer/footer";
 import LogoCrousal from "./components/LogoCrousal/LogoCrousal";
+import Projects from "./components/Projects/Projects";
 function App() {
   return (
     <>
       <div className="overflow-x-hidden">
         <HeroSection />
         <Services />
+        <Projects />
         <About />
         <WhyUs />
         <DiscussProject />
