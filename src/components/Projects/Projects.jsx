@@ -101,6 +101,24 @@ const projects = [
     githubLink:
       "https://linuxhint.com/virtualbox-vs-hyper-vs-vmware-detailed-comparison/",
   },
+  {
+    category: "UI/UX",
+    image: "/images/img12.jpg",
+    title: "Dashboard Web Design ",
+    description:
+      "This is a web deisgned for a dashboard. It is designed using figma. It is a simple and clean design.",
+    githubLink:
+      "https://www.figma.com/proto/EV2XCeKAoxSWh9oiozLqC6/Untitled?t=qkjMwrHegOmzAdba-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&node-id=2-2&starting-point-node-id=2%3A2",
+  },
+  {
+    category: "UI/UX",
+    image: "/images/img13.jpg",
+    title: "Dashboard Web Design",
+    description:
+      " Amazing Dashboard Web Design. It is designed using figma. It is a simple and clean design.",
+    githubLink:
+      "https://www.figma.com/proto/RDonboZ7R0XLfNBMcmCXTh/Untitled?t=qkjMwrHegOmzAdba-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&node-id=0-1 ",
+  },
 ];
 
 // Categories for filtering
