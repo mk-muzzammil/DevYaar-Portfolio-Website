@@ -1,4 +1,11 @@
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const About = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <section
       id="about"
@@ -20,7 +27,7 @@ const About = () => {
         </div>
         <div className="flex flex-wrap justify-center gap-10">
           <div className="w-full max-w-md p-4">
-            <div className="bg-white shadow-lg p-8 text-center rounded-lg h-full flex flex-col justify-between dark:bg-white ">
+            <div data-aos="fade-down" className="bg-white shadow-lg p-8 text-center rounded-lg h-full flex flex-col justify-between dark:bg-white ">
               <img
                 src="/images/mission.png"
                 alt="Feature 1"
@@ -36,7 +43,7 @@ const About = () => {
             </div>
           </div>
           <div className="w-full max-w-md p-4">
-            <div className="bg-white shadow-lg p-8 text-center rounded-lg h-full flex flex-col justify-between dark:bg-white dark:text-black">
+            <div data-aos="fade-down" className="bg-white shadow-lg p-8 text-center rounded-lg h-full flex flex-col justify-between dark:bg-white dark:text-black">
               <img
                 src="/images/vision.png"
                 alt="Feature 2"

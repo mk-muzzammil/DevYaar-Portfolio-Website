@@ -1,6 +1,12 @@
 import { FaAngleDoubleRight } from "react-icons/fa";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const WhyUs = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   let skills = [
     { id: 1, name: "Web Development" },
     { id: 2, name: "Shopify Development" },
@@ -28,7 +34,7 @@ const WhyUs = () => {
         </p>
         <div className="flex flex-col lg:flex-row justify-around ">
           <div className="lg:w-[50%] p-4 lg:p-6">
-            <div className="flex flex-col gap-4  ">
+            <div data-aos="fade-right" className="flex flex-col gap-4  ">
               <p>
                 At DevYaar, we bring together a talented team of software
                 developers, computer programmers, web designers, and app
@@ -51,7 +57,7 @@ const WhyUs = () => {
               })}
             </div>
           </div>
-          <div className="lg:w-[50%] p-4 lg:p-6 self-center">
+          <div data-aos="fade-left" className="lg:w-[50%] p-4 lg:p-6 self-center">
             <img
               className="sm:w-[500px]"
               src="/images/WhyUs.png"
