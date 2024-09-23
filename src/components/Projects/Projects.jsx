@@ -119,6 +119,46 @@ const projects = [
     githubLink:
       "https://www.figma.com/proto/RDonboZ7R0XLfNBMcmCXTh/Untitled?t=qkjMwrHegOmzAdba-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&node-id=0-1 ",
   },
+  {
+    category: "Mobile App Development",
+    image: "/images/img14.png",
+    title: "Instagram Clone ",
+    description:
+      " This is an amazing instagram clone app.its is developed in flutter and firebase. It is a simple and clean design.",
+    githubLink: "https://github.com/AliHere76/Instagram-UI-Clone-Flutter.git ",
+  },
+  {
+    category: "Mobile App Development",
+    image: "/images/img15.png",
+    title: "MQTT Communication App",
+    description:
+      "This is an amazing app for communication. It is developed in flutter and MQTT. It is a simple and clean design.",
+    githubLink: "https://github.com/AliHere76/Flutter-MQTT-Communication-App ",
+  },
+  {
+    category: "Video Editing",
+    image: "/images/img16.png",
+    title: "Camera Info",
+    description:
+      "This reel crafted in Premiere Pro contains information regarding photo and video cameras and the TAX duties imposed on them..",
+    githubLink: "https://www.behance.net/gallery/208535943/Camera-Info",
+  },
+  {
+    category: "Video Editing",
+    image: "/images/img17.png",
+    title: "Care Cast",
+    description:
+      "This video encapsulates the essence of PG's podcasting journey, showcasing snippets of lively discussions, thought-provoking debates, and spontaneous moments.",
+    githubLink: "https://www.behance.net/gallery/208535749/Carcast ",
+  },
+  {
+    category: "Video Editing",
+    image: "/images/img18.png",
+    title: "Skoon Ki Zindagi",
+    description:
+      "This video animation shows the hardships a student goes in order to achieve 'Sakoon ki Zindagi' in a modern day university life.",
+    githubLink: "https://www.behance.net/gallery/208535491/Sakoon-ki-Zindagi ",
+  },
 ];
 
 // Categories for filtering
@@ -205,8 +245,8 @@ const Projects = () => {
 
       {/* No Projects Message */}
       {filteredProjects.length === 0 && (
-        <div className="flex justify-center items-center text-black text-2xl md:text-3xl lg:text-4xl h-[50vh] ">
-          No projects available in this category.
+        <div className="flex justify-center items-center text-primary text-3xl md:text-4xl lg:text-5xl h-[50vh] ">
+          Coming Soon ...
         </div>
       )}
 
