@@ -254,20 +254,20 @@ const Projects = () => {
       {filteredProjects.length > 0 && (
         <Swiper
           spaceBetween={30}
-          slidesPerView={2} // Show only 1 slide per view, but adjust with breakpoints
+          slidesPerView={1} // Show only 1 slide per view, but adjust with breakpoints
           grabCursor={true}
           modules={[Pagination]}
           pagination={{ clickable: true }}
           className="portfolio-slider w-full my-12 pb-12"
           breakpoints={{
             640: { slidesPerView: 1 }, // Ensure only 1 card per view on mobile screens
-            768: { slidesPerView: filteredProjects.length === 1 ? 2 : 2 }, // Show 2 slides on tablet and up, 1 slide if only one project
+            768: { slidesPerView: 2 },
           }}
         >
           {filteredProjects.map((project, index) => (
             <SwiperSlide
               key={index}
-              className="project-card relative group flex flex-col items-center justify-center p-4 rounded-lg shadow-lg bg-white transition-all duration-300 w-full md:w-[45vw] h-[60vh]" // Ensure the card width is 100% on mobile and adjusted on larger screens
+              className="relative group flex flex-col items-center justify-center p-4 rounded-lg shadow-lg bg-white transition-all duration-300 w-full md:w-[80vw] h-[60vh]" // Ensure the card width is 100% on mobile and adjusted on larger screens
             >
               <img
                 src={project.image}
