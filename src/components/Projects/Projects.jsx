@@ -151,7 +151,7 @@ const projects = [
     description:
       "This is a functional fitness tracker app  developed using Java, XML, and firebase. It allows users to track their meals,workouts and can see the different body part games . The app is fully functional, but the interface has been kept simple for practice purposes.",
     githubLink:
-      "https://github.com/mk-muzzammil/Finance-Tracker-App-With-java-and-XML.git",
+      "https://github.com/mk-muzzammil/Fitness-Tracker-Gym-App-using-Java-XML.git",
   },
 
   {
