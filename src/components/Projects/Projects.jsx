@@ -124,7 +124,7 @@ const projects = [
     image: "/images/img14.png",
     title: "Instagram Clone ",
     description:
-      " This is an amazing instagram clone app.its is developed in flutter and firebase. It is a simple and clean design.",
+      " This is an amazing instagram clone app.its is developed in java and firebase. It is a simple and clean design.",
     githubLink: "https://github.com/AliHere76/Instagram-UI-Clone-Flutter.git ",
   },
   {
@@ -135,6 +135,25 @@ const projects = [
       "This is an amazing app for communication. It is developed in flutter and MQTT. It is a simple and clean design.",
     githubLink: "https://github.com/AliHere76/Flutter-MQTT-Communication-App ",
   },
+  {
+    category: "Mobile App Development",
+    image: "/images/java1.png",
+    title: "Finance Tracker App",
+    description:
+      "This is a functional finance tracker app developed using Java, XML, and MySQL. It allows users to track their income and expenses, view transaction history, and calculate total balances. The app is fully functional, but the interface has been kept simple for practice purposes.",
+    githubLink:
+      "https://github.com/mk-muzzammil/Finance-Tracker-App-With-java-and-XML.git",
+  },
+  {
+    category: "Mobile App Development",
+    image: "/images/java2.png",
+    title: "Body Fitness App (MK's GYM)",
+    description:
+      "This is a functional fitness tracker app  developed using Java, XML, and firebase. It allows users to track their meals,workouts and can see the different body part games . The app is fully functional, but the interface has been kept simple for practice purposes.",
+    githubLink:
+      "https://github.com/mk-muzzammil/Finance-Tracker-App-With-java-and-XML.git",
+  },
+
   {
     category: "Video Editing",
     image: "/images/img16.png",
